@@ -64,7 +64,7 @@ envelopebtn.addEventListener('click', function() {
 function validateName() {
   let x = document.forms["txtboxName"]["name"].value;
   
-  if (x == "Youness" || x == "youness") {
+  if (x == "Mirza" || x == "mirza" || x == "miza" || x == "Miza") {
     //FADE IN AGE FORM
     const d2 = document.getElementById("inmain-div2");
     const d3 = document.getElementById("inmain-div3");
@@ -87,7 +87,7 @@ function validateName() {
 function validateAge() {
   let x = document.forms["txtboxAge"]["age"].value;
   
-  if (x == "20" || x == "twenty" || x == "Twenty") {
+  if (x == "21" || x == "twenty one" || x == "Twenty one") {
     //  FADE IN LETTER BUTTON
     const d3 = document.getElementById("inmain-div3");
     const ltrDiv = document.getElementById("letter-div");
@@ -103,7 +103,7 @@ function validateAge() {
 
   }
 
-  else if (x == "19" || x == "nineteen" || x == "Nineteen" ) {
+  else if (x == "20" || x == "twenty" || x == "Twenty" ) {
     alert("but it's your birthday!");
     return false;
   }
